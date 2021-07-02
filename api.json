@@ -1,0 +1,38 @@
+[
+    {
+      "price": 550,
+      "id": 1,
+      "title": "Hamburguesa",
+      "thumbnailUrl": "https://i.ibb.co/7R3YfWX/foodiesfeed-com-grilled-cheddar-and-bacon-burger-detail.jpg"
+    },
+    {
+      "price": 300,
+      "id": 2,
+      "title": "Papas fritas",
+      "thumbnailUrl": "https://i.ibb.co/nw5B3yP/French-fries-with-steak-and-beer.jpg"
+    },
+    {
+      "price": 150,
+      "id": 3,
+      "title": "Gaseosa",
+      "thumbnailUrl": "https://i.ibb.co/8DkHW1n/foodiesfeed-com-coke-with-ice-in-a-glass.jpg"
+    },
+    {
+      "price": 500,
+      "id": 4,
+      "title": "Club sandwich",
+      "thumbnailUrl": "https://i.ibb.co/j4srq1c/foodiesfeed-com-sub-sandwiches-with-a-ham.jpg"
+    },
+    {
+      "price": 350,
+      "id": 5,
+      "title": "Sundae",
+      "thumbnailUrl": "https://i.ibb.co/tpybqHC/pexels-piotr-arnoldes-6025810.jpg"
+    },
+    {
+      "price": 480,
+      "id": 6,
+      "title": "Ensalada",
+      "thumbnailUrl": "https://i.ibb.co/mB36Tq9/pexels-ben-1464601.jpg"
+    }
+  ]

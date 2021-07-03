@@ -29,3 +29,19 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
     object-position: center;
 }
+
+#pop-up {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+    display: none;
+}
+
+#pop-up.active {
+    display: block;
+}

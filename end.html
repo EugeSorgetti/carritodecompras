@@ -29,68 +29,39 @@
                 <th scope="col">#</th>
                 <th scope="col">Item</th>
                 <th scope="col">Cantidad</th>
-                <th scope="col">Acción</th>
                 <th scope="col">Total</th>
               </tr>
             </thead>
-            <tbody id="items"></tbody>
+            <tbody id="results"></tbody>
             <tfoot>
-              <tr id="footer" class="bg-light">
-                <th scope="row" colspan="5">Carrito vacío - ¡Comenzar a comprar!</th>
+              <tr class="bg-light" id="footer-results">
               </tr>
             </tfoot>
           </table>
-        <div class="row" id="cards">
-
-        </div>
-
+          <div class="d-flex justify-content-center m-5">
+            <button class="btn btn-danger" id="pay">Pagar</button>
+          </div>
     </section>
-    <!-- Template -->
-    <template id="card-template">
-        <div class="col-12 mb-5 col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img src="" class="card-img-top thumbnail" alt="">
-                <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text">$ <span></span></p>
-                    <button class="btn custom-btn">Agregar al carrito</a>
-                </div>
-            </div>
-        </div>
-    </template>
-    
-    <template id="cart-template">
+
+    <div id="pop-up" class="text-center bg-light">
+        <h1>¡Gracias por su compra!</h1>
+        <a href="index.html" class="btn custom-btn m-5">Volver al inicio</a>
+    </div>
+
+    <template id="results-template">
         <tr>
           <th scope="row">id</th>
           <td>Café</td>
           <td>1</td>
-          <td>
-              <button class="btn btn-dark btn-sm">
-                  +
-              </button>
-              <button class="btn btn-danger btn-sm">
-                  -
-              </button>
-          </td>
           <td>$ <span>500</span></td>
         </tr>
       </template>
-
       <template id="footer-template">
         <th scope="row" colspan="2">Total de productos</th>
         <td>10</td>
-        <td>
-            <button class="btn btn-danger btn-sm" id="empty-cart">
-                Vaciar carrito
-            </button>
-            <button class="btn btn-dark btn-sm" id="end">
-                Finalizar compra
-            </button>
-            
-        </td>
         <td class="font-weight-bold">$ <span>5000</span></td>
     </template>
-    <script src="app.js"></script>
+    <script src="end.js"></script>
 </body>
 
 </html>
